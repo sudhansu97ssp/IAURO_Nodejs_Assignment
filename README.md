@@ -20,20 +20,16 @@ Follow these steps to get the application running locally.
   1. Clone the Repository
   Clone the project repository to your local machine using Git:
   
-  ```bash
   git clone <repository-url>
 
   Replace <repository-url> with the actual URL of the Git repository.
 
   Then, navigate into the project directory:
-  
-  ```bash
   cd <project-directory>
 
   2. Install Dependencies
   Once you are inside the project directory, install the required dependencies using npm:
-
-  ```bash
+  
   npm install
 
   This will download and install all necessary packages and modules listed in the package.json file into the node_modules folder.
@@ -54,7 +50,6 @@ Follow these steps to get the application running locally.
   Development Mode
   Start the application in development mode, which includes automatic restarts when you make changes (assuming nodemon is configured):
 
-  ```bash
   npm run dev
 
   5. Access the Application
